@@ -139,7 +139,7 @@ public class Controller {
                 .uri(URI.create("https://google-translate1.p.rapidapi.com/language/translate/v2"))
                 .header("content-type", "application/x-www-form-urlencoded")
                 .header("accept-encoding", "application/gzip")
-                .header("x-rapidapi-key", "795c85050cmsha505ac32196eec7p19ce50jsn56b857f3bc19")
+                .header("x-rapidapi-key", "Your Api Key")
                 .header("x-rapidapi-host", "google-translate1.p.rapidapi.com")
                 .method("POST", HttpRequest.BodyPublishers.ofString("q="+sourceField.getText().toString()+"&source="+dic.get(source.getValue())+"&target="+dic.get(target.getValue())))
                 .build();
