@@ -1,0 +1,25 @@
+.button{
+    -fx-background-color: #218c74;
+    -fx-border-radius:20px;
+}
+
+.button:hover{
+    -fx-background-color:#c8d6e5;
+}
+
+.button.pressed{
+    -fx-background-color: #78e08f;
+}
+
+.clear{
+    -fx-background-color: #ff6b6b;
+    -fx-border-radius:20px;
+}
+
+.clear:hover{
+    -fx-background-color:#feca57;
+}
+
+.clear.pressed{
+    -fx-background-color: #ee5253;
+}
